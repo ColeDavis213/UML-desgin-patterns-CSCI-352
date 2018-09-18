@@ -8,6 +8,11 @@ namespace Factory_Method
 {
     class CarAssembler
     {
-        void AssembleCar(Factory CarFactory);
+        public void AssembleCar(CarFactory factory)
+        {
+            Car car = factory.GetCar();
+
+            Console.WriteLine("Company: {0} \n Model: {1} \n Speed: {2}", car.Company, car.Model, car.Speed);
+        }
     }
 }

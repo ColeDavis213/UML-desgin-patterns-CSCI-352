@@ -44,9 +44,12 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="CarAssembler.cs" />
+    <Compile Include="CarFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suzuki Factory.cs" />
     <Compile Include="Suzuki.cs" />
+    <Compile Include="Toyota Factory.cs" />
     <Compile Include="Toyota.cs" />
   </ItemGroup>
   <ItemGroup>

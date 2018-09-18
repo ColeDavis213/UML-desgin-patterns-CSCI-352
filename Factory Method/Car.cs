@@ -8,7 +8,8 @@ namespace Factory_Method
 {
     abstract class Car
     {
-        abstract public string Company(get);
-
+        public abstract string Company { get; }
+        public abstract string Model { get; set; }
+        public abstract int Speed { get; set; }
     }
 }
